@@ -1,7 +1,7 @@
 /* style.css */
 
 body {
-    font-family: Arial, sans-serif; /* Fallback font family */
+    font-family: 'Arial', sans-serif; /* ใช้ฟอนต์ Arial ที่อ่านง่าย */
     text-align: center; /* Center-align text */
     margin: 0; /* Remove default margin */
     background-color: #FADADD; /* Set background color to light pink */
@@ -20,8 +20,9 @@ body {
 }
 
 #question {
-    font-family: 'Sacramento', cursive; /* Apply Sacramento font to the question */
-    font-size: 52px; /* Set font size for the question */
+    font-family: 'Arial', sans-serif; /* เปลี่ยนฟอนต์คำถามเป็น Arial */
+    font-size: 32px; /* ลดขนาดฟอนต์คำถามให้อ่านง่ายขึ้น */
+    line-height: 1.5; /* เพิ่มระยะห่างระหว่างบรรทัด */
 }
 
 #options {
@@ -31,8 +32,8 @@ body {
 button {
     padding: 10px 20px; /* Set padding for buttons */
     margin: 0 10px; /* Set margin around buttons */
-    font-size: 26px; /* Set font size for buttons */
-    font-family: 'Sacramento', cursive; /* Apply Sacramento font to the options */
+    font-size: 18px; /* ลดขนาดฟอนต์ให้เหมาะสม */
+    font-family: 'Arial', sans-serif; /* เปลี่ยนฟอนต์ของปุ่มเป็น Arial */
     background-color: #FB607F; /* Set button background color */
     color: white; /* Set text color to white */
     border: none; /* Remove button border */
